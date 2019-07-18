@@ -1,0 +1,22 @@
+{
+  "name": "webpack-plugin-run-shell-command",
+  "version": "1.0.0",
+  "description": "Webpack plugin to run shell command, use child_process.spawn",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "cd test && sh test.sh"
+  },
+  "files": [
+    "src"
+  ],
+  "peerDependencies": {
+    "webpack": ">=3.0.0"
+  },
+  "keywords": [],
+  "author": "James Yang",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
